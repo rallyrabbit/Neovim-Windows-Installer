@@ -19,6 +19,9 @@ At that point, I thought, why not provide installable items for Windows users on
 ## Use At Your Risk
 I have tried to make a basic installer.  However, I cannot test this in every scenario on Windows.  Each installer I make has been attempted to be tested on Windows XP, Windows 7, Windows 10, and Windows 11.  This should work ion other versions of Windows, but know, this is freely available.  You can take my NSIS script and use it to base your own installer on or you can offer me some feedback and I can improve this script.  But I cannot guarantee it is flawless and works under every variation.
 
+## Neovim License
+As of 23 September 2021, Neovim is licensed under Apache 2.0 License: https://github.com/neovim/neovim/blob/master/LICENSE
+
 ## What's Inside
 ### x86 Windows
 Installs Neovim compiled for 32-bit into your Program Files directory for 32-bit Windows or Program Files (x86) on 64-bit Windows.
