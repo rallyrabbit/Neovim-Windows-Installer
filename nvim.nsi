@@ -12,10 +12,10 @@
 
 ;--------------------------------
 
-# Uncomment the next line if you want to create a 64-bit installer.
+; Uncomment the next line if you want to create a 64-bit installer.
 !define WIN64
 
-!define VERS "v0.6.0-dev+331-gaba397991"
+!define VERS "v0.5.0"
 
 !ifdef WIN64
 ; The name of the installer
