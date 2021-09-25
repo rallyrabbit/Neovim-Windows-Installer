@@ -1,5 +1,14 @@
 # Neovim Windows Installer
 
+<div align="center"><p>
+    <a href="https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/latest">
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/rallyrabbit/Neovim-Windows-Installer" />
+    </a>
+    <a href="https://github.com/rallyrabbit/Neovim-Windows-Installer/pulse">
+      <img alt="Last commit" src="https://img.shields.io/github/last-commit/rallyrabbit/Neovim-Windows-Installer"/>
+    </a>
+</p></div>
+
 ## Purpose
 Create a good NSIS installer for Neovim (https://github.com/neovim/neovim)
 
