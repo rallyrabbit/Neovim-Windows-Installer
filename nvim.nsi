@@ -15,6 +15,7 @@
 ; Uncomment the next line if you want to create a 64-bit installer.
 !define WIN64
 
+!define INSTALLSIZE 163434
 !define VERS "v0.6.0-dev+331-gaba397991"
 
 !ifdef WIN64
@@ -123,7 +124,13 @@ Section "" ;No components page, name is not important
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "DisplayName" "${PRODUCT}"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "DisplayVersion" "${VERS}"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "Publisher" "Neovim (Adam Oldham)"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "UninstallString" '"$INSTDIR\uninstall.exe"'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "UninstallString" "$\"$INSTDIR\uninstall.exe$\""
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "QuietUninstallString" "$\"$INSTDIR\uninstall.exe$\" /S"
+  ; There is no option for modifying or repairing the install
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "NoModify" 1
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "NoRepair" 1
+  # Set the INSTALLSIZE constant (!defined at the top of this script) so Add/Remove Programs can accurately report the size
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Neovim" "EstimatedSize" ${INSTALLSIZE}
 
   ; Set Envar Plugin to HKey Current User in Registry
   EnVar::SetHKCU
