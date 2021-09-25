@@ -88,6 +88,10 @@ Section "" ;No components page, name is not important
   ; Write uninstall executable
   WriteUninstaller $INSTDIR\uninstall.exe
 
+  ; Start Menu
+  createDirectory "$SMPROGRAMS\Neovim"
+  createShortCut "$SMPROGRAMS\Neovim\Neovim.lnk" "$INSTDIR\bin\nvim-qt.exe" "" "$INSTDIR\bin\nvim-qt.exe"
+
   ; Register the Application
 !ifdef WIN64
   SetRegView 64
@@ -146,6 +150,11 @@ Section "Uninstall"
   ; Only deletes the install directory, does not delete the nvim data or user directory at the time....
   Delete $INSTDIR\Uninstall.exe ; delete self (see explanation below why this works)
   RMDir /r $INSTDIR
+
+  ; Remove Start Menu launcher
+  delete "$SMPROGRAMS\Neovim\Neovim.lnk"
+  ; Try to remove the Start Menu folder - this will only happen if it is empty
+  rmDir "$SMPROGRAMS\Neovim"
 
   ; Remove Application References
   DeleteRegKey HKCR "*\OpenWithList\nvim-qt.exe"
