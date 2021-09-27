@@ -9,6 +9,17 @@
     </a>
 </p></div>
 
+## Latest Packages
+### Neovim v0.5.0
+The latest stable release of Neovim is v0.5.0 for more information see [Neovim v0.5.0 release information](https://github.com/neovim/neovim/releases/nightly "Neovim v0.5.0 release information)
+
+Download Installer for Windows x86 or x64 at [Windows Neovim Installer v0.5.0](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.5.0 "Windows Neovim Installer v0.5.0)
+
+### Neovim v0.6.0 
+Weekly Windows Installer of latest Neovim v0.6.0-dev%2B344-gb3b02eb52 Development Release [Download v0.6.0-dev%2B344-gb3b02eb52](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.6.0-dev%2B344-gb3b02eb52 "Download v0.6.0-dev%2B344-gb3b02eb52")
+
+Download Installer for Windows x86 or x64 at [Windows Neovim Installer v0.6.0-dev%2B344-gb3b02eb52](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.6.0-dev%2B344-gb3b02eb52 "Windows Neovim Installer v0.6.0-dev%2B344-gb3b02eb52)
+
 ## Purpose
 Create a good NSIS installer for Neovim (https://github.com/neovim/neovim)
 
