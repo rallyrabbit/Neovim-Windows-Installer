@@ -13,10 +13,15 @@
 ;--------------------------------
 
 ; Uncomment the next line if you want to create a 64-bit installer.
-; !define WIN64
+!define WIN64
 
+; v0.6.0 baselines
 !define INSTALLSIZE 163434
 !define VERS "v0.6.0-dev+344-gb3b02eb52"
+
+; v0.5.0 basilines
+;!define INSTALLSIZE 87689
+;!define VERS "v0.5.1"
 
 !ifdef WIN64
 ; The name of the installer
