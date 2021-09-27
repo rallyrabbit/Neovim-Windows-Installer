@@ -10,12 +10,12 @@
 </p></div>
 
 ## Latest Packages
-### Neovim v0.5.0
+### Neovim v0.5.1 (Release)
 The latest stable release of Neovim is v0.5.1 for more information see [Neovim v0.5.1 release information](https://github.com/neovim/neovim/releases/tag/v0.5.1)
 
 Download Installer for Windows x86 or x64 at [Windows Neovim Installer v0.5.1](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.5.1)
 
-### Neovim v0.6.0 
+### Neovim v0.6.0 (Unstable builds) 
 Weekly Windows Installer of latest Neovim v0.6.0-dev+356-gbec7f47ce Development Nightly [Neovim v0.6.0 nightly information](https://github.com/neovim/neovim/releases/tag/nightly)
 
 Download Installer for Windows x86 or x64 at [Windows Neovim Installer v0.6.0-dev+356-gbec7f47ce](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.6.0-dev+356-gbec7f47ce)
