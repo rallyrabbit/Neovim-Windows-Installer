@@ -16,8 +16,8 @@
 !define WIN64
 
 ; v0.6.0 baselines
-!define INSTALLSIZE 163434
-!define VERS "v0.6.0-dev+344-gb3b02eb52"
+!define INSTALLSIZE 88341
+!define VERS "v0.6.0-dev+356-gbec7f47ce"
 
 ; v0.5.0 basilines
 ;!define INSTALLSIZE 87689
