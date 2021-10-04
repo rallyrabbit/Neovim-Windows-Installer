@@ -100,4 +100,6 @@ The base init.vim is a Vimscript file that can be used with both Vim and Neovim.
 ## Plans for Future
 1. Figure out how to set up and configure Windows Printing through Neovim to allow this to be configured with Neovim as part of the installation.
 2. Convert Vimscript init.vim to Lua.
-3. Include Lunarvim as part of the installation in Windows.
+3. Include Lunarvim or Solarvim as part of the installation in Windows.
+4. Check for admin on install and block
+5. Add Spanish and French support to the installer
