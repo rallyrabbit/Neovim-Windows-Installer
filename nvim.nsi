@@ -17,7 +17,7 @@
 
 ; v0.6.0 baselines
 !define INSTALLSIZE 88341
-!define VERS "v0.6.0-dev+356-gbec7f47ce"
+!define VERS "v0.6.0-dev+394-g8a9f29299"
 
 ; v0.5.0 basilines
 ;!define INSTALLSIZE 87689
@@ -39,6 +39,7 @@ OutFile "nvim-x86.exe"
 
 Name "${PRODUCT}"
 
+
 ; Request application privileges for Windows Vista
 RequestExecutionLevel admin
 
@@ -47,9 +48,9 @@ Unicode True
 
 ; The default installation directory
 !ifdef WIN64
-InstallDir $PROGRAMFILES64\nvim
+InstallDir $PROGRAMFILES64\neovim
 !else
-InstallDir $PROGRAMFILES\nvim
+InstallDir $PROGRAMFILES\neovim
 !endif
 
 ; Show details by default
