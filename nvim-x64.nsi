@@ -17,7 +17,7 @@
 
 ; v0.6.0 baselines
 !define INSTALLSIZE 91811
-!define VERS "v0.6.1"
+!define VERS "v0.8.2"
 
 ; v0.5.0 basilines
 ;!define INSTALLSIZE 87689
