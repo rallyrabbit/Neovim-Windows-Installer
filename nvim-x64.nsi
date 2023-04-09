@@ -13,11 +13,11 @@
 ;--------------------------------
 
 ; Uncomment the next line if you want to create a 64-bit installer.
- !define WIN64
+!define WIN64
 
 ; v0.6.0 baselines
 !define INSTALLSIZE 91811
-!define VERS "v0.8.2"
+!define VERS "v0.9.0"
 
 ; v0.5.0 basilines
 ;!define INSTALLSIZE 87689
@@ -28,7 +28,7 @@
 !define PRODUCT "Neovim (x64) ${VERS}"
 
 ; The file to write
-OutFile "nvim-x64.exe"
+OutFile "nvim-win64.exe"
 !else
 ; The name of the installer
 !define PRODUCT "Neovim (x86) ${VERS}"
