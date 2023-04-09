@@ -11,7 +11,7 @@
 
 ## Latest Packages
 ### Neovim v0.9.0 (Release)
-The latest stable release of Neovim is v0.9.0 for more information see [Neovim v0.5.1 release information](https://github.com/neovim/neovim/releases/tag/v0.9.0)
+The latest stable release of Neovim is v0.9.0 for more information see [Neovim v0.9.0 release information](https://github.com/neovim/neovim/releases/tag/v0.9.0)
 
 Download Installer for Windows x64 at [Windows Neovim Installer v0.9.0](https://github.com/rallyrabbit/Neovim-Windows-Installer/releases/tag/v0.9.0)
 
